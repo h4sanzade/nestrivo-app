@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">nestrivo-app</string>
+
+    <string name="splash_brand_name">NESTRIVO</string>
+    <string name="splash_tagline">Connect. Learn. Belong.</string>
+    <string name="splash_logo_description">NESTRIVO logo</string>
+
+    <!-- Temporary: remove together with HomeFragment once your real first screen exists -->
+    <string name="home_placeholder_title">Home (temporary screen)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

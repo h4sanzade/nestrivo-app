@@ -6,4 +6,11 @@
     </style>
 
     <style name="Theme.Nestrivoapp" parent="Base.Theme.Nestrivoapp" />
+
+    <!-- Launch theme for SplashActivity: paints the window in the brand background
+         so there is no white/black flash before the branded layout is inflated. -->
+    <style name="Theme.Nestrivoapp.Splash" parent="Theme.Nestrivoapp">
+        <item name="android:windowBackground">@color/nestrivo_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
 </resources>

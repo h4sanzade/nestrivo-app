@@ -1,0 +1,25 @@
+<resources>
+    <!-- Splash screen -->
+    <dimen name="splash_logo_width">180dp</dimen>
+    <!-- One gap used on both sides of the accent rule: logo -> rule and rule -> tagline. -->
+    <dimen name="splash_content_gap">14dp</dimen>
+    <dimen name="splash_rule_width">28dp</dimen>
+    <dimen name="splash_rule_height">2dp</dimen>
+    <dimen name="splash_content_margin">32dp</dimen>
+    <dimen name="splash_tagline_text_size">16sp</dimen>
+    <dimen name="splash_logo_enter_offset">12dp</dimen>
+    <dimen name="splash_loading_margin_bottom">40dp</dimen>
+
+    <!-- Loading dots -->
+    <dimen name="loading_dot_radius">4dp</dimen>
+    <dimen name="loading_dot_gap">12dp</dimen>
+
+    <!-- Journey path decoration -->
+    <dimen name="journey_line_width">2dp</dimen>
+    <dimen name="journey_dot_gap">7dp</dimen>
+    <dimen name="journey_waypoint_radius">2.5dp</dimen>
+    <dimen name="journey_node_core_radius">4.5dp</dimen>
+    <dimen name="journey_node_halo_radius">10dp</dimen>
+    <dimen name="journey_node_ring_radius">6dp</dimen>
+    <dimen name="journey_node_ring_stroke">1.5dp</dimen>
+</resources>

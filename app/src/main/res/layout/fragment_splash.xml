@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nestrivo_background"
+    tools:context=".SplashFragment">
+
+
+
+    <!-- Content container receives the system bar / display cutout insets. -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/contentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="@dimen/splash_content_margin"
+        android:paddingEnd="@dimen/splash_content_margin">
+
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="@dimen/splash_logo_width"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/splash_logo_description"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_nestrivo_logo"
+            app:layout_constraintBottom_toTopOf="@id/viewAccentRule"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.42"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <View
+            android:id="@+id/viewAccentRule"
+            android:layout_width="@dimen/splash_rule_width"
+            android:layout_height="@dimen/splash_rule_height"
+
+            android:background="@color/nestrivo_emerald"
+            app:layout_constraintBottom_toTopOf="@id/tvTagline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivLogo" />
+
+        <TextView
+            android:id="@+id/tvTagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/splash_tagline"
+            android:textColor="@color/nestrivo_navy_70"
+            android:textSize="@dimen/splash_tagline_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/viewAccentRule"
+            android:layout_marginTop="7dp"/>
+
+        <!-- 3-dot loading indicator, pinned to the bottom (above the system navigation bar). -->
+        <com.materialdesign.nestrivo_app.LoadingDotsView
+            android:id="@+id/loadingDots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/splash_loading_margin_bottom"
+            android:importantForAccessibility="no"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
