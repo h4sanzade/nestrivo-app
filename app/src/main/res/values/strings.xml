@@ -29,4 +29,25 @@
     <string name="preview_login_message">Preview only: login is not connected yet.</string>
     <string name="preview_google_message">Preview only: Google sign-in is not connected yet.</string>
     <string name="preview_screen_message">This screen will be added next.</string>
+
+    <string name="register_title">Create your account</string>
+    <string name="register_subtitle">Join NESTRIVO and find your people.</string>
+    <string name="register_name_hint">Full name</string>
+    <string name="register_email_hint">Email address</string>
+    <string name="register_password_hint">Password</string>
+    <string name="register_password_helper">Use at least 8 characters.</string>
+    <string name="register_confirm_password_hint">Confirm password</string>
+    <string name="register_terms_text">I agree to the Terms of Service and Privacy Policy.</string>
+    <string name="register_btn_text">Create Account</string>
+    <string name="register_or">or</string>
+    <string name="register_google_btn">Sign up with Google</string>
+    <string name="register_have_account">Already have an account?</string>
+    <string name="register_log_in">Log in</string>
+
+    <!-- Error Strings -->
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_password_length">Password must be at least 8 characters</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_terms_required">You must agree to the terms to continue</string>
 </resources>

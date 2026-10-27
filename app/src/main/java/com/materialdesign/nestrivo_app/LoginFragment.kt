@@ -13,10 +13,10 @@ import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.widget.doAfterTextChanged
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.google.android.material.snackbar.Snackbar
 import com.materialdesign.nestrivo_app.databinding.FragmentLoginBinding
 import kotlin.math.max
-
 
 class LoginFragment : Fragment() {
 
@@ -73,9 +73,13 @@ class LoginFragment : Fragment() {
         binding.btnLogin.setOnClickListener { attemptLogin() }
         binding.btnGoogle.setOnClickListener { showPreviewMessage(R.string.preview_google_message) }
 
-        // Register and Forgot Password screens are added in the next steps.
+        // Forgot Password preview message
         binding.tvForgotPassword.setOnClickListener { showPreviewMessage(R.string.preview_screen_message) }
-        binding.tvSignUp.setOnClickListener { showPreviewMessage(R.string.preview_screen_message) }
+
+        // Register ekranına yönlendirme
+        binding.tvSignUp.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_registerFragment)
+        }
     }
 
     override fun onDestroyView() {

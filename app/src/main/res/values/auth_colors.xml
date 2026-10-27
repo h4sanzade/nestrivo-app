@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="nestrivo_emerald_dark">#FF0E7A58</color>
-    <color name="nestrivo_stroke">#FF8A92A0</color>
-    <color name="nestrivo_divider">#2917233C</color>
-    <color name="nestrivo_error">#FFC9372C</color>
+   <color name="nestrivo_emerald_dark">#FF0E7A58</color>-->
+<!--    <color name="nestrivo_stroke">#FF8A92A0</color>-->
+   <color name="nestrivo_divider">#2917233C</color>-->
+<!--    <color name="nestrivo_error">#FFC9372C</color>-->
 </resources>

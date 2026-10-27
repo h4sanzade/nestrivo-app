@@ -11,4 +11,10 @@
     <color name="nestrivo_navy_70">#B217233C</color>
     <color name="nestrivo_navy_40">#6617233C</color>
     <color name="nestrivo_navy_25">#4017233C</color>
+
+
+    <color name="nestrivo_off_white">#FAF9F6</color>
+    <color name="nestrivo_navy_alpha_60">#9917233C</color>
+    <color name="nestrivo_stroke">#E0E4EB</color>
+    <color name="nestrivo_error">#D32F2F</color>
 </resources>
