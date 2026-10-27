@@ -9,4 +9,24 @@
     <string name="home_placeholder_title">Home (temporary screen)</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Log in to reconnect with your study partners and friends.</string>
+
+    <string name="auth_email_hint">Email address</string>
+    <string name="auth_password_hint">Password</string>
+    <string name="auth_forgot_password">Forgot password?</string>
+    <string name="auth_log_in">Log In</string>
+    <string name="auth_or">or</string>
+    <string name="auth_continue_google">Continue with Google</string>
+    <string name="auth_no_account">Don\'t have an account?</string>
+    <string name="auth_sign_up">Sign Up</string>
+
+    <string name="error_email_required">Enter your email address</string>
+    <string name="error_email_invalid">Enter a valid email address</string>
+    <string name="error_password_required">Enter your password</string>
+
+    <string name="preview_login_message">Preview only: login is not connected yet.</string>
+    <string name="preview_google_message">Preview only: Google sign-in is not connected yet.</string>
+    <string name="preview_screen_message">This screen will be added next.</string>
 </resources>

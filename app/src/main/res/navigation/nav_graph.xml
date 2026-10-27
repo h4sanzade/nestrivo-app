@@ -21,8 +21,8 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.materialdesign.nestrivo_app.HomeFragment"
+        android:name="com.materialdesign.nestrivo_app.LoginFragment"
         android:label="HomeFragment"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_login" />
 
 </navigation>

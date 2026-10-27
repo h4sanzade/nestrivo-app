@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.Nestrivo.Error" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/nestrivo_error</item>
+    </style>
+
+    <style name="Widget.Nestrivo.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">@dimen/auth_field_corner</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/auth_field_corner</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/auth_field_corner</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/auth_field_corner</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxStrokeColor">@color/nestrivo_input_stroke</item>
+        <item name="boxStrokeErrorColor">@color/nestrivo_error</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="android:textColorHint">@color/nestrivo_navy_70</item>
+        <item name="hintTextColor">@color/nestrivo_emerald_dark</item>
+        <item name="startIconTint">@color/nestrivo_navy_70</item>
+        <item name="endIconTint">@color/nestrivo_navy_70</item>
+        <item name="cursorColor">@color/nestrivo_emerald</item>
+        <item name="errorTextColor">@color/nestrivo_error</item>
+        <item name="errorTextAppearance">@style/TextAppearance.Nestrivo.Error</item>
+    </style>
+
+    <style name="Widget.Nestrivo.Button.Primary" parent="Widget.Material3.Button">
+        <item name="android:minHeight">@dimen/auth_button_height</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="backgroundTint">@color/nestrivo_navy</item>
+        <item name="cornerRadius">@dimen/auth_button_corner</item>
+        <item name="rippleColor">@color/nestrivo_emerald</item>
+    </style>
+
+    <style name="Widget.Nestrivo.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">@dimen/auth_button_height</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/nestrivo_navy</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="cornerRadius">@dimen/auth_button_corner</item>
+        <item name="strokeColor">@color/nestrivo_stroke</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="rippleColor">@color/nestrivo_navy_25</item>
+    </style>
+
+</resources>
