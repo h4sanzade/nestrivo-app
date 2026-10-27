@@ -16,7 +16,7 @@
     <string name="auth_email_hint">Email address</string>
     <string name="auth_password_hint">Password</string>
     <string name="auth_forgot_password">Forgot password?</string>
-    <string name="auth_log_in">Log In</string>
+    <string name="auth_log_in">Log In  ➜</string>
     <string name="auth_or">or</string>
     <string name="auth_continue_google">Continue with Google</string>
     <string name="auth_no_account">Don\'t have an account?</string>
